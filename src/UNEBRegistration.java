@@ -44,4 +44,14 @@ class Student {
         this.status = "REGISTERED";
         System.out.println("5. [CONSTRUCTOR] " + name + " registered and assigned to " + examCentre);
     }
+
+    void displayDetails() {
+        System.out.println("   ----- Candidate Details -----");
+        System.out.println("   Index No : " + indexNumber);
+        System.out.println("   Name     : " + name);
+        System.out.println("   School   : " + school);
+        System.out.println("   Centre   : " + examCentre);
+        System.out.println("   Status   : " + status);
+        System.out.println("   Fee Paid : UGX " + registrationFee + " for UNEB " + examYear + "\n");
+    }
 }
