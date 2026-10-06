@@ -13,4 +13,13 @@ class Student {
     static int registrationFee;
     static String gradingPolicy;
     static int totalCandidates;
+
+    static {
+        System.out.println("3. [STATIC BLOCK - Student] Loading UNEB examination settings (runs ONCE)...");
+        examYear = 2026;
+        registrationFee = 164000;
+        gradingPolicy = "Grades A to E (Competence Based)";
+        totalCandidates = 0;
+        System.out.println("   Exam Year: " + examYear + " | Fee: UGX " + registrationFee + " | Grading: " + gradingPolicy + "\n");
+    }
 }
