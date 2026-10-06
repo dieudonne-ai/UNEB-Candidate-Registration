@@ -36,4 +36,12 @@ class Student {
         examCentre = "NOT YET ASSIGNED";
         System.out.println("4. [INSTANCE BLOCK] Defaults set for " + indexNumber + " -> Status: " + status + ", Centre: " + examCentre);
     }
+
+    Student(String name, String school) {
+        this.name = name;
+        this.school = school;
+        this.examCentre = school + " Examination Centre";
+        this.status = "REGISTERED";
+        System.out.println("5. [CONSTRUCTOR] " + name + " registered and assigned to " + examCentre);
+    }
 }
