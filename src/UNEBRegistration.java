@@ -7,3 +7,10 @@ public class UNEBRegistration {
         System.out.println("2. [MAIN METHOD] main() started - beginning candidate registration\n");
     }
 }
+
+class Student {
+    static int examYear;
+    static int registrationFee;
+    static String gradingPolicy;
+    static int totalCandidates;
+}
