@@ -5,6 +5,15 @@ public class UNEBRegistration {
 
     public static void main(String[] args) {
         System.out.println("2. [MAIN METHOD] main() started - beginning candidate registration\n");
+
+        Student s1 = new Student("Nakato Sarah", "Gayaza High School");
+        s1.displayDetails();
+
+        Student s2 = new Student("Okello James", "Gulu High School");
+        s2.displayDetails();
+
+        Student s3 = new Student("Mukasa Brian", "Ntare School");
+        s3.displayDetails();
     }
 }
 
