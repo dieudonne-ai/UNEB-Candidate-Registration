@@ -28,4 +28,12 @@ class Student {
         totalCandidates = 0;
         System.out.println("   Exam Year: " + examYear + " | Fee: UGX " + registrationFee + " | Grading: " + gradingPolicy + "\n");
     }
+
+    {
+        totalCandidates++;
+        indexNumber = "U" + examYear + "/" + String.format("%03d", totalCandidates);
+        status = "PENDING";
+        examCentre = "NOT YET ASSIGNED";
+        System.out.println("4. [INSTANCE BLOCK] Defaults set for " + indexNumber + " -> Status: " + status + ", Centre: " + examCentre);
+    }
 }
