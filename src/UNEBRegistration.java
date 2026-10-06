@@ -14,6 +14,12 @@ class Student {
     static String gradingPolicy;
     static int totalCandidates;
 
+    String indexNumber;
+    String name;
+    String school;
+    String status;
+    String examCentre;
+
     static {
         System.out.println("3. [STATIC BLOCK - Student] Loading UNEB examination settings (runs ONCE)...");
         examYear = 2026;
