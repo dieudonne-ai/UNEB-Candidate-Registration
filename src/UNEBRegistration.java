@@ -14,6 +14,9 @@ public class UNEBRegistration {
 
         Student s3 = new Student("Mukasa Brian", "Ntare School");
         s3.displayDetails();
+
+        System.out.println("Total candidates registered: " + Student.totalCandidates);
+        System.out.println("Static block ran ONCE, instance block and constructor ran " + Student.totalCandidates + " times.");
     }
 }
 
